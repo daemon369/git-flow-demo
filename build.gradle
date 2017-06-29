@@ -1,0 +1,9 @@
+apply plugin: 'java'
+
+version = '0.1'
+
+jar {
+	manifest {
+		attributes('Main-Class': 'me.daemon.Main')
+	}
+}
